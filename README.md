@@ -49,12 +49,18 @@ The following observations can be made from the TensorBoard logs:
 
 These experiments show that all four algorithms are able to learn to solve the Frozen Lake 8x8 environment. However, Q-Learning outperforms the other algorithms in terms of average reward per episode.
 
+![Screenshot 2023-10-24 124448](https://github.com/emanueleiacca/Reinforcement-Learning-Frozen-Lake-env-with-Tabular-Algorithms/assets/128679981/f13a7473-02d8-4d96-b617-7552a91ec3b9)
+
+
 ## Hyperparameter Optimization
 
 We also used Optuna to find the best set of hyperparameters for the Q-Learning algorithm. The best hyperparameters for the stochastic environment are as follows:
 Discount rate: 0.9961459723114788
 Learning rate: 0.06698053340104898
 Higher discount rates and lower learning rates tend to perform better as indicated by Optuna
+
+![Screenshot 2023-10-26 194909](https://github.com/emanueleiacca/Reinforcement-Learning-Frozen-Lake-env-with-Tabular-Algorithms/assets/128679981/16ccb32d-74a9-4d3f-813b-3bc6d4b10811)
+
 
 ### Evaluating the Q-table
 
